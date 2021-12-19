@@ -1,13 +1,5 @@
 <template>
   <div id="app">
-    <div>
-      <h1>Hello Vue</h1>
-    </div>
-
-    <div>
-      <p>{{ fixedDataMessage }}</p>
-    </div>
-
     <div class="bucketlist">
       <h2>BucketList</h2>
       <form>
@@ -68,7 +60,7 @@
 /* import HelloWorld from './components/HelloWorld.vue' */
 
 export default {
-  name: "App",
+  name: "BucketList",
 
   // used components
   components: {},
@@ -165,7 +157,7 @@ export default {
 </script>
 
 <style>
-@import "./styles/style.css";
+@import "../styles/style.css";
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
